@@ -1,6 +1,15 @@
 <<<<<<< HEAD
 # IMDB_ReactJS
-a simple imdb using ReactJS, Styled Components, Bootstrap, Redux management tool in assosiation with @ncanturk@mobiversite.com
+a simple imdb using ReactJS, Styled Components, Bootstrap, Redux management tool in association with @ncanturk@mobiversite.com
+
+- the project developed with ReactJs, Styled Components, Redux
+- there is three component (Navbar, Left Sidebar, Feed and Right Sidebar )
+- for css designing I used Styled component to reuse my every single style
+- the state management applied using redux management tool.
+- all the object are saved inside the object folder and returned from there.
+- you can sort left bar based on date and on clicking on card the main property will change with the properties.
+- its resposive for desktop and mobile.
+
 =======
 # Getting Started with Create React App
 
