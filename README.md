@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 # IMDB_ReactJS
-a simple imdb using ReactJS, Styled Components, Bootstrap, Redux management tool in association with @ncanturk@mobiversite.com
+a simple imdb using ReactJS, Styled Components, Bootstrap, Redux management tool in association with 
+- @ncanturk@mobiversite.com
 
 - the project developed with ReactJs, Styled Components, Redux
 - there is three component (Navbar, Left Sidebar, Feed and Right Sidebar )
