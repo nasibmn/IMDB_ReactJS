@@ -109,10 +109,13 @@ export const LeftBarStyle = styled.div`
 `;
 
 export const LeftTitle = styled.div`
+  position: sticky;
+  top: 0;
+  background-color: var(--color2);
+  z-index: 100;
   display: flex;
   height: 60px;
   font-size: 0.9rem;
-  position: relative;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -125,7 +128,8 @@ export const LeftTitle = styled.div`
     transition: all 0.7s ease;
   }
   @media only screen and (max-width: 768px) {
-    height: 50px;
+    height: 40px;
+    font-size: 0.66rem;
   }
 `;
 export const Hr = styled.div`
@@ -170,7 +174,6 @@ export const CardInfo = styled.div`
 
 export const Title = styled.div`
   margin-top: 5px;
-  /* background-color: azure; */
   display: flex;
   flex-direction: row-reverse;
   justify-content: left;
@@ -221,6 +224,32 @@ export const ImgMore = styled.img`
 // -----------------------------------------------------------------------------------------
 
 // Feed Parts --------------------------------------------------------------------------------
+
+export const SpanName = styled.strong`
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in;
+  &:hover {
+    opacity: 0.5;
+  }
+  @media only screen and (max-width: 1200px) {
+    margin-left: -10px;
+    font-size: 9px;
+  }
+`;
+
+export const FeedCardStyle = styled.div`
+  margin-bottom: 10px;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  background: var(--color1);
+  opacity: 1;
+  @media only screen and (max-width: 1200px) {
+    width: 100%;
+    padding: 0;
+  }
+`;
+
 export const FeedStyle = styled.div`
   position: fixed;
   width: inherit;
@@ -232,21 +261,6 @@ export const FeedStyle = styled.div`
   background-color: var(--color2);
   margin-top: 69.5px;
   transition: all 0.6s ease;
-`;
-
-export const FeedCardStyle = styled.div`
-  &:first-child span {
-    color: var(--color11);
-  }
-  margin-bottom: 10px;
-  font-size: 0.7rem;
-  border-radius: 5px;
-  background: var(--color1);
-  opacity: 1;
-  @media only screen and (max-width: 1200px) {
-    width: 100%;
-    padding: 0;
-  }
 `;
 
 export const FeedCardInfo = styled.div`
@@ -264,20 +278,6 @@ export const FeedCardInfo = styled.div`
   }
 `;
 
-export const SpanName = styled.span`
-  font-weight: bold;
-  font-size: 0.9rem;
-  cursor: pointer;
-  transition: opacity 0.3s ease-in;
-  &:hover {
-    opacity: 0.5;
-  }
-  @media only screen and (max-width: 1200px) {
-    margin-left: -10px;
-    font-size: 9px;
-  }
-`;
-
 export const SpanDate = styled.strong`
   top: 0px;
   left: 74px;
@@ -288,31 +288,32 @@ export const SpanDate = styled.strong`
   @media only screen and (max-width: 768px) {
     display: flex;
     margin-left: -20px;
-    font-size: 0.5rem !important;
+    font-size: 0.4rem !important;
   }
   text-align: left;
-  font: normal normal normal 13px/18px Open Sans;
-  letter-spacing: 0px;
   color: #aaaaaa;
 `;
 
-export const FeedText = styled.p`
-  font-size: 0.88rem;
-  padding-left: 28px;
-  margin-top: -20px;
-  margin-bottom: 20px;
-  @media only screen and (max-width: 768px) {
-    font-size: 0.6rem;
-    padding-left: 0;
-    margin-top: 0;
-    /* height: 120px; */
-    margin-bottom: 0;
-  }
-`;
-
 export const FeedTitle = styled.div`
-  display: flex;
-  flex-direction: column;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  span {
+    text-align: justify;
+    font-size: 0.88rem;
+    margin-bottom: 30px;
+  }
+  @media only screen and (max-width: 768px) {
+    margin-left: -25px;
+    span {
+      background-color: white;
+      text-align: justify;
+      padding-left: 0;
+      margin-bottom: 10px;
+      font-size: 0.6rem;
+    }
+    margin-bottom: -10px;
+    width: 150%;
+  }
 `;
 
 export const FeedCardText = styled.div`
@@ -331,15 +332,11 @@ export const FeedCardText = styled.div`
   }
 `;
 export const FeedBg = styled.img`
-  height: 15rem;
   width: 70%;
   margin-bottom: 20px;
-  margin-left: 30px;
   border-radius: 20px;
   @media only screen and (max-width: 768px) {
-    margin-left: 0px;
-    height: 100%;
-    width: 100%;
+    width: 200px;
   }
 `;
 
@@ -435,7 +432,7 @@ export const Ul = styled.ul`
   margin: 0;
 `;
 
-export const PopularUser = styled.div`
+export const PopularUser = styled.label`
   height: 50px;
   display: flex;
   font-size: 1rem;

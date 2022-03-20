@@ -17,7 +17,7 @@ import likelogo from "../assets/arrow-alt-down.svg";
 import commentlogo from "../assets/arrow-alt-down-1.svg";
 import morelogo from "../assets/ellipsis-h.svg";
 import { useSelector } from "react-redux";
-
+import ShowMoreText from "react-show-more-text";
 const FeedCard = () => {
   const { payload } = useSelector((state) => state.card);
   console.log(payload ? payload.map((item) => item) : "");
@@ -45,7 +45,16 @@ const FeedCard = () => {
                   </FeedPostInfo>
                   <div className="card-body">
                     <FeedTitle className="card-text">
-                      <FeedText>{title}</FeedText>
+                      {/* <FeedText> */}
+                      <ShowMoreText
+                        lines={3}
+                        anchorClass="my-anchor-css-class"
+                        more="daha fazla"
+                        less="daha az"
+                      >
+                        {title}
+                      </ShowMoreText>
+                      {/* </FeedText> */}
                       {movie_image ? (
                         <FeedBg className="img-fluid" src={movie_image} />
                       ) : (

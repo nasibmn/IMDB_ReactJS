@@ -21,3 +21,23 @@ body {
   --color11: #0464d3;
   --color12: #9b9b9b;
 }
+
+@media only screen and (max-width: 1200px) {
+  .show-user {
+    position: absolute;
+    width: 50%;
+    right: 0;
+  }
+  .show-user .rightstyle .userprofile {
+    display: none;
+  }
+  .card-header {
+    display: flex;
+    font-size: 0.6rem !important;
+    justify-content: center;
+  }
+  .show-user ul li {
+    display: flex;
+    justify-content: center;
+  }
+}
