@@ -37,6 +37,7 @@ export const Header = styled.div`
       margin-right: 10px;
     }
     .search {
+      padding-right: 50px;
     }
   }
 `;
@@ -51,6 +52,10 @@ export const Search = styled.input`
   left: 886px;
   width: 273px;
   height: 50px;
+  @media only screen and (max-width: 768px) {
+    width: 230px;
+    height: 40px;
+  }
   background: var(--color2);
   padding-left: 60px;
   border: 1px solid var(--color3);
@@ -254,12 +259,14 @@ export const FeedCardInfo = styled.div`
   align-items: center;
   text-align: center;
   @media only screen and (max-width: 768px) {
-    margin-left: -20px;
+    margin-left: -30px;
+    font-size: 0.6rem;
   }
 `;
 
 export const SpanName = styled.span`
   font-weight: bold;
+  font-size: 0.9rem;
   cursor: pointer;
   transition: opacity 0.3s ease-in;
   &:hover {
@@ -267,7 +274,7 @@ export const SpanName = styled.span`
   }
   @media only screen and (max-width: 1200px) {
     margin-left: -10px;
-    font-size: 8px;
+    font-size: 9px;
   }
 `;
 
@@ -362,8 +369,8 @@ export const ReplyInput = styled.input`
   border: none;
   margin-bottom: 100px;
   @media only screen and (max-width: 1200px) {
-    padding-left: 20px;
-    font-size: 0.7rem;
+    padding-left: 10px;
+    font-size: 0.6rem;
   }
 `;
 
@@ -379,8 +386,8 @@ export const ImgInput = styled.img`
   position: absolute;
   right: 0;
   @media only screen and (max-width: 1200px) {
-    margin-top: 15px;
-    height: 15px;
+    margin-top: 20px;
+    height: 13px;
   }
 `;
 // ----------------------------------------------------------------------------------------------------
@@ -440,12 +447,13 @@ export const PopularUser = styled.div`
 
 export const PopularUserList = styled.li`
   cursor: pointer;
+  border: 0;
   transition: all 0.5s ease;
   &:hover {
     opacity: 0.7;
   }
   height: 50px;
-  margin-top: 2px;
+  margin-top: 3px;
   display: flex;
   padding: 35px 25px;
   font-size: 1rem;
