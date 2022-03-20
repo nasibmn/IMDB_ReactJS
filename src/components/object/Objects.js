@@ -15,6 +15,26 @@ export const post = [
     up: "2250",
   },
   {
+    profile: avatar1,
+    username: "moderator",
+    date: " • 3 October 2022 • 9:41",
+    title:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor consectetur adipiscing elit, sed do eiusmod tempor consectetur Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor consectetu adipisc sit ameth...",
+    movie_image: image1,
+    down: "2250",
+    up: "2250",
+  },
+  {
+    profile: avatar1,
+    username: "moderator",
+    date: " • 3 October 2022 • 9:41",
+    title:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor consectetur adipiscing elit, sed do eiusmod tempor consectetur Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor consectetu adipisc sit ameth...",
+    movie_image: image1,
+    down: "2250",
+    up: "2250",
+  },
+  {
     profile: avatar2,
     username: "username",
     date: " • 3d",
@@ -65,6 +85,44 @@ export const post1 = [
     down: "2250",
     up: "2251",
   },
+  {
+    profile: avatar2,
+    username: "moderator",
+    date: " • 3 October 2022 • 9:41",
+    title: "post 2",
+    movie_image: image1,
+    down: "2250",
+    up: "2250",
+  },
+  {
+    profile: avatar3,
+    username: "username",
+    date: " • 3d",
+    title:
+      "post 2 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
+    movie_image: "",
+    down: "2250",
+    up: "2251",
+  },
+  {
+    profile: avatar2,
+    username: "moderator",
+    date: " • 3 October 2022 • 9:41",
+    title: "post 2",
+    movie_image: image1,
+    down: "2250",
+    up: "2250",
+  },
+  {
+    profile: avatar3,
+    username: "username",
+    date: " • 3d",
+    title:
+      "post 2 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
+    movie_image: "",
+    down: "2250",
+    up: "2251",
+  },
 ];
 
 export const post2 = [
@@ -74,6 +132,44 @@ export const post2 = [
     date: " • 3d",
     title:
       "post 3 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
+    movie_image: "",
+    down: "2250",
+    up: "2251",
+  },
+  {
+    profile: avatar2,
+    username: "moderator",
+    date: " • 3 October 2022 • 9:41",
+    title: "post 2",
+    movie_image: image1,
+    down: "2250",
+    up: "2250",
+  },
+  {
+    profile: avatar3,
+    username: "username",
+    date: " • 3d",
+    title:
+      "post 2 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
+    movie_image: "",
+    down: "2250",
+    up: "2251",
+  },
+  {
+    profile: avatar2,
+    username: "moderator",
+    date: " • 3 October 2022 • 9:41",
+    title: "post 2",
+    movie_image: image1,
+    down: "2250",
+    up: "2250",
+  },
+  {
+    profile: avatar3,
+    username: "username",
+    date: " • 3d",
+    title:
+      "post 2 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
     movie_image: "",
     down: "2250",
     up: "2251",
@@ -91,6 +187,44 @@ export const post4 = [
     down: "2250",
     up: "2251",
   },
+  {
+    profile: avatar2,
+    username: "moderator",
+    date: " • 3 October 2022 • 9:41",
+    title: "post 2",
+    movie_image: image1,
+    down: "2250",
+    up: "2250",
+  },
+  {
+    profile: avatar3,
+    username: "username",
+    date: " • 3d",
+    title:
+      "post 2 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
+    movie_image: "",
+    down: "2250",
+    up: "2251",
+  },
+  {
+    profile: avatar2,
+    username: "moderator",
+    date: " • 3 October 2022 • 9:41",
+    title: "post 2",
+    movie_image: image1,
+    down: "2250",
+    up: "2250",
+  },
+  {
+    profile: avatar3,
+    username: "username",
+    date: " • 3d",
+    title:
+      "post 2 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
+    movie_image: "",
+    down: "2250",
+    up: "2251",
+  },
 ];
 export const post5 = [
   {
@@ -99,6 +233,44 @@ export const post5 = [
     date: " • 3d",
     title:
       "post 5 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
+    movie_image: "",
+    down: "2250",
+    up: "2251",
+  },
+  {
+    profile: avatar2,
+    username: "moderator",
+    date: " • 3 October 2022 • 9:41",
+    title: "post 2",
+    movie_image: image1,
+    down: "2250",
+    up: "2250",
+  },
+  {
+    profile: avatar3,
+    username: "username",
+    date: " • 3d",
+    title:
+      "post 2 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
+    movie_image: "",
+    down: "2250",
+    up: "2251",
+  },
+  {
+    profile: avatar2,
+    username: "moderator",
+    date: " • 3 October 2022 • 9:41",
+    title: "post 2",
+    movie_image: image1,
+    down: "2250",
+    up: "2250",
+  },
+  {
+    profile: avatar3,
+    username: "username",
+    date: " • 3d",
+    title:
+      "post 2 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
     movie_image: "",
     down: "2250",
     up: "2251",
@@ -127,6 +299,44 @@ export const post7 = [
     down: "2250",
     up: "2251",
   },
+  {
+    profile: avatar2,
+    username: "moderator",
+    date: " • 3 October 2022 • 9:41",
+    title: "post 2",
+    movie_image: image1,
+    down: "2250",
+    up: "2250",
+  },
+  {
+    profile: avatar3,
+    username: "username",
+    date: " • 3d",
+    title:
+      "post 2 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
+    movie_image: "",
+    down: "2250",
+    up: "2251",
+  },
+  {
+    profile: avatar2,
+    username: "moderator",
+    date: " • 3 October 2022 • 9:41",
+    title: "post 2",
+    movie_image: image1,
+    down: "2250",
+    up: "2250",
+  },
+  {
+    profile: avatar3,
+    username: "username",
+    date: " • 3d",
+    title:
+      "post 2 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
+    movie_image: "",
+    down: "2250",
+    up: "2251",
+  },
 ];
 export const post8 = [
   {
@@ -135,6 +345,44 @@ export const post8 = [
     date: " • 3d",
     title:
       "post 8 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
+    movie_image: "",
+    down: "2250",
+    up: "2251",
+  },
+  {
+    profile: avatar2,
+    username: "moderator",
+    date: " • 3 October 2022 • 9:41",
+    title: "post 2",
+    movie_image: image1,
+    down: "2250",
+    up: "2250",
+  },
+  {
+    profile: avatar3,
+    username: "username",
+    date: " • 3d",
+    title:
+      "post 2 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
+    movie_image: "",
+    down: "2250",
+    up: "2251",
+  },
+  {
+    profile: avatar2,
+    username: "moderator",
+    date: " • 3 October 2022 • 9:41",
+    title: "post 2",
+    movie_image: image1,
+    down: "2250",
+    up: "2250",
+  },
+  {
+    profile: avatar3,
+    username: "username",
+    date: " • 3d",
+    title:
+      "post 2 Lorem ipsum dolor sit amet, go na kd weer3 consectetur adipiscing elit, sed do eiusmod tempor",
     movie_image: "",
     down: "2250",
     up: "2251",

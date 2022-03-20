@@ -2,13 +2,12 @@ import styled from "styled-components";
 
 // body part ...................................................................
 export const Container = styled.div`
-  position: static;
+  position: relative;
   top: 0px;
   left: 0px;
   width: 1280px;
   background: var(--color2);
   opacity: 1;
-  overflow: hidden;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -84,13 +83,18 @@ export const Avatar = styled.img`
 
 // Left Bar parts ....................................................................
 export const LeftBarStyle = styled.div`
-  position: sticky;
+  position: fixed;
+  width: inherit;
   top: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
   background-color: var(--color2);
   margin-top: 69.5px;
   justify-content: center;
   padding-left: 74px;
-  opacity: 1;
   @media only screen and (max-width: 1200px) {
     padding-left: 10px;
     margin-right: -30px;
@@ -212,9 +216,17 @@ export const ImgMore = styled.img`
 
 // Feed Parts --------------------------------------------------------------------------------
 export const FeedStyle = styled.div`
+  $color-primary: blue;
+  position: fixed;
+  width: inherit;
+  top: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
   background-color: var(--color2);
   margin-top: 69.5px;
-  z-index: 1;
+  transition: all 0.6s ease;
 `;
 
 export const FeedCardStyle = styled.div`
@@ -375,6 +387,14 @@ export const ImgInput = styled.img`
 
 // Right Bar Parts -------------------------------------------------------------------------------------
 export const RightBarStyle = styled.div`
+  position: fixed;
+  width: inherit;
+  top: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
   background-color: var(--color2);
   margin-top: 69.5px;
   z-index: 1;

@@ -1,4 +1,3 @@
-import { Avatar } from "@material-ui/core";
 import React from "react";
 import {
   RightCardStyle,
@@ -6,6 +5,7 @@ import {
   PopularUserList,
   UserProfile,
   ProfileEntry,
+  Avatar,
   Ul,
 } from "../styles/styled";
 import { profilelist } from "../object/Objects";
