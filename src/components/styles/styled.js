@@ -29,7 +29,8 @@ export const Header = styled.div`
   height: 69.5px;
   border-bottom: 4px solid var(--color2);
   @media only screen and (max-width: 768px) {
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
     .logo {
       margin-left: -10px;
       margin-right: 10px;
@@ -216,7 +217,6 @@ export const ImgMore = styled.img`
 
 // Feed Parts --------------------------------------------------------------------------------
 export const FeedStyle = styled.div`
-  $color-primary: blue;
   position: fixed;
   width: inherit;
   top: 0;
@@ -460,11 +460,12 @@ export const UserProfile = styled.div`
   margin-top: 20px;
   display: flex;
   align-items: flex-start;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--color6);
   font-weight: bold;
   @media only screen and (max-width: 1200px) {
     padding: 0;
+    font-size: 0.6rem;
     margin-left: 6px;
   }
   flex-direction: column;
