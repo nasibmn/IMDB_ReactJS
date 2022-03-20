@@ -32,11 +32,11 @@ export const Header = styled.div`
     justify-content: space-between;
     padding: 0 20px 0 20px;
     .logo {
+      height: 20px;
       margin-left: -10px;
       margin-right: 10px;
     }
     .search {
-      padding-right: 50px;
     }
   }
 `;
