@@ -288,14 +288,16 @@ export const SpanDate = styled.strong`
   @media only screen and (max-width: 768px) {
     display: flex;
     margin-left: -20px;
-    font-size: 0.4rem !important;
+    font-size: 0.36rem !important;
   }
   text-align: left;
   color: #aaaaaa;
 `;
 
 export const FeedTitle = styled.div`
+  /* background-color: red; */
   margin-left: 25px;
+  margin-right: 10px;
   margin-bottom: 20px;
   span {
     text-align: justify;
@@ -304,6 +306,8 @@ export const FeedTitle = styled.div`
   }
   @media only screen and (max-width: 768px) {
     margin-left: -25px;
+    padding-right: 10px;
+
     span {
       background-color: white;
       text-align: justify;
